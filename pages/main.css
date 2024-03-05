@@ -1,6 +1,6 @@
 body {
             font-family: Arial, sans-serif;
-            background: url('/static/img/background.jpg') no-repeat center center fixed;
+            background: url('background.jpg') no-repeat center center fixed;
             background-size: cover; /* Фон будет покрывать всю доступную область */
             color: #b5d2e5; /* Цвет текста */
             text-align: center;
