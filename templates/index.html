@@ -1,20 +1,18 @@
 {% extends 'layout.html' %}
 
-{% load static %}
-
 {% block title %}Главная страница{% endblock %}
 
 {% block content %}
 
-    <img src="img/logo.svg" alt="Аватар" class="avatar">
+    <img src="{{ url_for('static', filename='img/avatar.png') }}" alt="Аватар" class="avatar">
     <h1>Rockntt</h1>
     <h4>Python Developer | LNIP & SHP Student</h4>
 
     <!-- Ссылки на социальные сети с иконками Font Awesome -->
     <div>
-        <a href="https://vk.com/rockntt" class="social-link vk"><i class="fab fa-vk"></i></a>
-        <a href="https://github.com/Rockntt" class="social-link github"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/Rockntt" class="social-link telegram"><i class="fab fa-telegram-plane"></i></a>
+        <a href="https://vk.com/rockntt" class="social-link vk"><i class="fab fa-vk fa-2x"></i></a>
+        <a href="https://github.com/Rockntt" class="social-link github"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://t.me/Rockntt" class="social-link telegram"><i class="fab fa-telegram-plane fa-2x"></i></a>
     </div>
 
 

@@ -1,8 +1,8 @@
 body {
             font-family: Arial, sans-serif;
-            background: url('static/img/background.jpg') no-repeat center center fixed; /* Путь к файлу фона */
+            background: url('/static/img/background.jpg') no-repeat center center fixed;
             background-size: cover; /* Фон будет покрывать всю доступную область */
-            color: #fff; /* Цвет текста */
+            color: #b5d2e5; /* Цвет текста */
             text-align: center;
             padding-top: 50px;
             margin: 0;
@@ -12,20 +12,27 @@ body {
             height: 150px;
             border-radius: 50%; /* Делает изображение круглым */
             margin-bottom: 20px;
-            border: 3px solid #fff; /* Опциональная рамка для аватарки */
+            border: 3px solid #b5d2e5; /* Опциональная рамка для аватарки */
         }
         .social-link {
             display: inline-block;
+            justify-content: center; /* Центрирование по горизонтали */
+            align-items: center; /* Центрирование по вертикали */
+            width: 75px;
+            height: 75px;
             margin: 10px;
             padding: 15px;
-            color: #fff;
+            color: #b5d2e5;
             text-decoration: none;
             border-radius: 50%;
-            border: 2px solid #fff; /* Рамка для иконок */
+            border: 2px solid #b5d2e5; /* Рамка для иконок */
         }
         .social-link:hover {
-            color: #ddd;
+            color: #578fa2;
         }
         .fa {
             margin-right: 8px;
         }
+h4 {
+    margin-bottom: 50px;
+}
