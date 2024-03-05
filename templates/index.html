@@ -1,4 +1,4 @@
-{% extends 'main/layout.html' %}
+{% extends 'layout.html' %}
 
 {% load static %}
 
@@ -6,11 +6,16 @@
 
 {% block content %}
 
-    <h1>ROCKNTT</h1>
-    <div class="text-container">
-    <p>Клочков "Rockntt" Макар, 16 лет. Развиваюсь в сферах ИКБ и разработки на Python. Обучаюсь в 10 классе ГАОУ МО ЛНИП.<br> Ниже можете найти ссылки для связи со мной.  </p>
-    </div>
+    <img src="img/logo.svg" alt="Аватар" class="avatar">
+    <h1>Rockntt</h1>
+    <h4>Python Developer | LNIP & SHP Student</h4>
 
+    <!-- Ссылки на социальные сети с иконками Font Awesome -->
+    <div>
+        <a href="https://vk.com/rockntt" class="social-link vk"><i class="fab fa-vk"></i></a>
+        <a href="https://github.com/Rockntt" class="social-link github"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/Rockntt" class="social-link telegram"><i class="fab fa-telegram-plane"></i></a>
+    </div>
 
 
 {% endblock %}

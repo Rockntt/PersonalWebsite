@@ -1,0 +1,31 @@
+body {
+            font-family: Arial, sans-serif;
+            background: url('static/img/background.jpg') no-repeat center center fixed; /* Путь к файлу фона */
+            background-size: cover; /* Фон будет покрывать всю доступную область */
+            color: #fff; /* Цвет текста */
+            text-align: center;
+            padding-top: 50px;
+            margin: 0;
+        }
+        .avatar {
+            width: 150px; /* Задайте желаемый размер аватарки */
+            height: 150px;
+            border-radius: 50%; /* Делает изображение круглым */
+            margin-bottom: 20px;
+            border: 3px solid #fff; /* Опциональная рамка для аватарки */
+        }
+        .social-link {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50%;
+            border: 2px solid #fff; /* Рамка для иконок */
+        }
+        .social-link:hover {
+            color: #ddd;
+        }
+        .fa {
+            margin-right: 8px;
+        }
